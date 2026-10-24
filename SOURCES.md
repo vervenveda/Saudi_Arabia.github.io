@@ -85,3 +85,52 @@ Illustrations must never be presented as documentary photographs.
 ## Language rule
 
 The Saudi gateway is intended to maintain full English ↔ Arabic parity, including visible copy, dynamic regional content, controls, accessibility labels and saved language preference.
+
+
+## Cultural portal research register
+
+Added with the Art, Music, History, and Architecture portal network.
+
+### Art & visual culture
+- **Rock Art in the Hail Region of Saudi Arabia** — UNESCO World Heritage Centre. Jubbah and Shuwaymis preserve petroglyphs and inscriptions spanning major environmental changes and roughly 10,000 years of human history.  
+  https://whc.unesco.org/en/list/1472
+- **Hegra Archaeological Site (al-Hijr / Madā’in Ṣāliḥ)** — UNESCO World Heritage Centre. Used as the archaeological anchor for Nabataean monumental carving and inscription in northwestern Arabia.  
+  https://whc.unesco.org/en/list/1293
+- **Al-Qatt Al-Asiri** — UNESCO Intangible Cultural Heritage. Traditionally female interior wall decoration in Asir using white gypsum grounds, geometric forms, vivid color, and intergenerational transmission.  
+  https://ich.unesco.org/en/RL/al-qatt-al-asiri-female-traditional-interior-wall-decoration-in-asir-saudi-arabia-01261
+- **Traditional weaving of Al Sadu** — UNESCO Intangible Cultural Heritage. Bedouin weaving using natural fibres, rhythmic geometric repetition, symmetry, and bright colors including reds and oranges.  
+  https://ich.unesco.org/en/RL/traditional-weaving-of-al-sadu-02158
+- **Arabic calligraphy: knowledge, skills and practices** — UNESCO Intangible Cultural Heritage. Used as a shared heritage reference; the Saudi portal does not claim that calligraphy belongs exclusively to Saudi Arabia.  
+  https://ich.unesco.org/en/RL/arabic-calligraphy-knowledge-skills-and-practices-01718
+
+### Music & performance
+- **Alardah Alnajdiyah, dance, drumming and poetry in Saudi Arabia** — UNESCO Intangible Cultural Heritage.  
+  https://ich.unesco.org/en/RL/alardah-alnajdiyah-dance-drumming-and-poetry-in-saudi-arabia-01196
+- **Almezmar, drumming and dancing with sticks** — UNESCO Intangible Cultural Heritage; a Hijazi group performance.  
+  https://ich.unesco.org/en/RL/almezmar-drumming-and-dancing-with-sticks-01011
+- **Semsemiah: instrument crafting and playing** — UNESCO Intangible Cultural Heritage. The record includes Saudi sailors, fishermen, and ship-trading communities and the instrument’s association with the sea.  
+  https://ich.unesco.org/en/RL/semsemiah-instrument-crafting-and-playing-02119
+- **Samri Dance** — Saudipedia. Used for introductory regional context and named variants; treated as a secondary national reference rather than an independent scholarly source.  
+  https://saudipedia.com/en/samri-dance
+- **Timeline of the Development of the Music Industry in the Kingdom** — Saudipedia. Used for dated modern music-sector milestones.  
+  https://saudipedia.com/en/timeline-of-the-development-of-the-music-industry-in-the-kingdom
+
+### History & architecture
+- **Saudi Arabia World Heritage properties** — UNESCO World Heritage Centre. Used as the top-level register of inscribed properties and dates.  
+  https://whc.unesco.org/en/statesparties/sa
+- **At-Turaif District in ad-Dir’iyah** — UNESCO World Heritage Centre. Used for Najdi adobe architecture, geometric decoration, and the political history of Diriyah.  
+  https://whc.unesco.org/en/list/1329
+- **Historic Jeddah, the Gate to Makkah** — UNESCO World Heritage Centre. Used for coral-stone construction, wooden roshan, Red Sea trade, and pilgrimage history.  
+  https://whc.unesco.org/en/list/1361
+- **Al-Ahsa Oasis, an Evolving Cultural Landscape** — UNESCO World Heritage Centre. Used for the relationship among springs, canals, gardens, settlement, and long-term human occupation.  
+  https://whc.unesco.org/en/list/1563
+- **Traditional architectural styles in Aseer Province** — Saudipedia, citing the Saudi Heritage Commission and specialist literature. Used only to support the introductory description of mud, stone, and mixed mud-stone regional building traditions.  
+  https://saudipedia.com/en/what-are-the-traditional-architectural-styles-in-aseer-province
+
+## Cultural portal interpretation rules
+
+- The portals distinguish **present-day Saudi Arabia** from earlier societies and political entities that occupied the same geography.
+- Regional practices are not presented as a single uniform national aesthetic.
+- Interactive pattern and rhythm exercises are original educational abstractions and are explicitly labelled as **not reproductions or transcriptions** of traditional works.
+- Documentary photographs reuse only items recorded in this source register or a linked item-level source record.
+- Where a source is governmental or state-affiliated, the page identifies it as such and does not treat it as independent corroboration for contested claims.
