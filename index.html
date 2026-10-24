@@ -81,10 +81,14 @@ document.getElementById("nextSlide").addEventListener("click",()=>{activeSlide=(
 renderRegion("central");
 let isArabic=false;const langButton=document.getElementById("languageToggle");
 const translationGroups=[
+[".facts-heading .kicker",["لمحة سريعة"]],
+[".facts-heading h2",["المملكة العربية السعودية باختصار"]],
+[".facts-heading p",["حقائق أساسية للتعرّف إلى المملكة قبل استكشاف مناطقها وحكاياتها."]],
+[".facts .fact strong",["العاصمة","الموقع الجغرافي","ساحلان","اللغة الرسمية","العملة","اليوم الوطني"]],
+[".facts .fact span",["الرياض","شبه الجزيرة العربية · الشرق الأوسط","البحر الأحمر والخليج العربي","العربية","الريال السعودي (SAR)","23 سبتمبر"]],
 [".region-facts strong",["استكشف المزيد"]],
 [".region-resource",["استكشف المعلومات الرسمية للزوار ↗"]],
 [".hero-note",["مشروع تعليمي مستقل؛ تحقق من المعلومات الحالية عبر المصادر الرسمية."]],
-[".foot p",["استكشف باحترام. اطرح أسئلة جيدة. اتبع الأدلة.","مشروع تعليمي مستقل","© Built for the open web"]],
 ["#facts-placeholder",[]],
 ["#regions .section-head h2",["أماكن كثيرة، وحكايات متعددة"]],
 ["#regions .section-head p",["اختر منطقة لاستكشاف بعض معالمها الطبيعية والثقافية. هذه المقدمات نقاط بداية وليست وصفاً كاملاً للحياة المحلية."]],
