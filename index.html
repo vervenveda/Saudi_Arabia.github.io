@@ -78,7 +78,44 @@ document.getElementById("previousSlide").addEventListener("click",()=>{activeSli
 document.getElementById("nextSlide").addEventListener("click",()=>{activeSlide=(activeSlide+1)%regions[activeRegion].slides.length;renderSlide();});
 renderRegion("central");
 let isArabic=false;const langButton=document.getElementById("languageToggle");
-langButton.addEventListener("click",()=>{isArabic=!isArabic;document.documentElement.lang=isArabic?"ar":"en";document.documentElement.dir=isArabic?"rtl":"ltr";langButton.textContent=isArabic?"English":"العربية";document.querySelectorAll("[data-en][data-ar]").forEach(el=>{el.innerHTML=isArabic?el.dataset.ar:el.dataset.en;});});
+const translationGroups=[
+["#facts-placeholder",[]],
+["#regions .section-head h2",["أماكن كثيرة، وحكايات متعددة"]],
+["#regions .section-head p",["اختر منطقة لاستكشاف بعض معالمها الطبيعية والثقافية. هذه المقدمات نقاط بداية وليست وصفاً كاملاً للحياة المحلية."]],
+["#culture .section-head h2",["تقاليد تتطور باستمرار"]],
+["#culture .section-head p",["يتنوع المجتمع السعودي بين المناطق والأجيال والمجتمعات. وتشمل حياته الثقافية تقاليد راسخة وفنوناً وتصميماً وموسيقى وأدباً ورياضة وريادة أعمال معاصرة."]],
+["#culture .card h3",["الضيافة","اللغة والتعبير","الإيمان والحج","الطعام والاجتماع","التراث الحي","الإبداع المعاصر"]],
+["#culture .card p",["يُعد استقبال الضيوف وتقديم القهوة العربية والتمر والكرم من مظاهر الضيافة المعروفة، مع اختلاف العادات بين الأماكن والعائلات.","تحمل اللغة العربية تراثاً أدبياً وشعرياً غنياً. وتسهم اللهجات الإقليمية ورواية القصص والخط والمنسوجات والموسيقى والإبداع المعاصر في ثقافة حية.","مكة المكرمة والمدينة المنورة أقدس مدينتين في الإسلام ووجهتان للحج والزيارة. وتشكل التقاليد الدينية جزءاً محورياً من هوية المملكة وصلاتها بالعالم.","تعبر الوجبات المشتركة وتقاليد القهوة عن الترحيب والانتماء. ويختلف المطبخ بين المناطق تبعاً للمكونات المحلية والتجارة والمناخ والتقاليد العائلية.","تربط الأحياء التاريخية والمناظر الأثرية والحرف والروايات الشفوية ومواقع التراث المعترف بها من اليونسكو الماضي بالمجتمعات المعاصرة.","يسهم الفنانون وصناع الأفلام والمصممون والكتّاب والرياضيون ورواد الأعمال في تشكيل فضاءات ثقافية جديدة مع التفاعل مع التراث والتأثيرات العالمية."]],
+["#timeline .section-head h2",["التاريخ حوار طويل"]],
+["#timeline .section-head p",["يعرض هذا الخط الزمني المختصر بعض المحطات، ولا يمثل التاريخ الكامل للمجتمعات المتعددة التي عاشت في أنحاء شبه الجزيرة."]],
+["#timeline .timecard p",["توضح طرق التجارة ومجتمعات الواحات والنقوش والمواقع الأثرية الروابط القديمة لشبه الجزيرة بالمناطق المجاورة.","ظهر الإسلام في غرب شبه الجزيرة العربية في القرن السابع، وأصبحت مكة والمدينة محوريتين في التاريخ الديني للعالم الإسلامي.","يربط عدد من التقاليد التاريخية عام 1727 بتأسيس الدولة السعودية الأولى، بينما يرتبط عام 1744 بتحالف سياسي وديني محوري.","أُعلن توحيد المملكة العربية السعودية الحديثة رسمياً عام 1932 بقيادة عبدالعزيز آل سعود.","أدى إنتاج النفط التجاري إلى تحولات في الاقتصاد والبنية التحتية والخدمات العامة والعلاقات الدولية للمملكة.","وضعت رؤية 2030 أجندة وطنية لتنويع الاقتصاد والتنمية الاجتماعية وتوسيع قطاعات الثقافة والسياحة."]],
+["#timeline .small",["قد تختلف التفسيرات التاريخية. وللتعمق، قارن بين أبحاث المتاحف والآثار والدراسات الأكاديمية والوثائق الأولية ووجهات النظر الإقليمية."]],
+["#today .section-head h2",["بلد في مرحلة تحول"]],
+["#today .section-head p",["تسعى المملكة إلى تنويع الاقتصاد في السياحة والخدمات اللوجستية والتقنية والترفيه والتصنيع والطاقة. وينبغي تقييم حجم هذه التغييرات وآثارها بالأدلة، بما في ذلك نتائجها على الناس والبيئة."]],
+["#today .list strong",["التحول الاقتصادي","التعليم والفرص","المرونة المائية والمناخية","الحقوق والمساءلة العامة"]],
+["#today .callout h3",["تعلّم بفضول، وقيّم بعناية"]],
+["#today .callout p",["توضح الخطط الرسمية أولويات الحكومة، بينما تساعد الأبحاث المستقلة وتجارب الناس على تقييم النتائج. وعند تناول موضوع خلافي، استعن بمصادر موثوقة متعددة وميّز بين الحقائق الراسخة والتوقعات والآراء. يمكن احترام الناس وممارسة التدقيق الصريح في آن واحد."]],
+["#partnership .section-head h2",["شراكة تُقاس بالنتائج"]],
+["#partnership .section-head p",["تشمل العلاقة بين الولايات المتحدة والسعودية التجارة والاستثمار والطاقة والأمن والتعليم والدبلوماسية الإقليمية. ويقترح هذا المشروع إطاراً قائماً على المبادئ للرفاه المتبادل: تعاون حيث تتوافق المصالح، وضمانات واضحة حيث توجد مخاطر، ومساءلة عامة عن الالتزامات."]],
+["#partnership .card h3",["الازدهار المتبادل والإنصاف الاقتصادي","الأمن دون شيكات على بياض","الكرامة الإنسانية والضيافة المتبادلة","منع الانتشار والسلام الإقليمي","التقارير العامة","التعاون الإقليمي"]],
+["#news .section-head h2",["تابع التطورات ضمن سياقها"]],
+["#news .section-head p",["تقدم هذه النسخة الأولى دليلاً منتقى للمصادر بدلاً من موجز أخبار مباشر غير متحقق منه. قارن الإعلانات الرسمية بالتغطية المستقلة والبيانات؛ فالعناوين تتغير، أما الأدلة والسياق فمهمان."]],
+["#resources .section-head h2",["المصادر الأولية وقراءات إضافية"]],
+["#resources .section-head p",["استخدم المصادر الأولية والمؤسسية للحقائق الأساسية، ثم قارن وجهات النظر. تساعد المصادر الرسمية على فهم السياسات، لكن لا ينبغي أن تكون الرواية الوحيدة لمجتمع معقد."]]
+];
+translationGroups.forEach(([selector,translations])=>{if(selector==="#facts-placeholder")return;const els=[...document.querySelectorAll(selector)];els.forEach((el,i)=>{if(!el.dataset.en)el.dataset.en=el.textContent;if(translations[i]!==undefined)el.dataset.ar=translations[i];});});
+function applyLanguage(){
+ document.documentElement.lang=isArabic?"ar":"en";
+ document.documentElement.dir=isArabic?"rtl":"ltr";
+ langButton.textContent=isArabic?"English":"العربية";
+ langButton.setAttribute("aria-label",isArabic?"Switch language to English":"تغيير اللغة إلى العربية");
+ document.querySelectorAll("[data-en][data-ar]").forEach(el=>{el.textContent=isArabic?el.dataset.ar:el.dataset.en;});
+ translationGroups.forEach(([selector,translations])=>{if(selector==="#facts-placeholder")return;document.querySelectorAll(selector).forEach((el,i)=>{if(translations[i]!==undefined)el.textContent=isArabic?translations[i]:el.dataset.en;});});
+ document.querySelectorAll(".region-tab").forEach((el,i)=>{if(!el.dataset.en)el.dataset.en=el.textContent;const ar=["الوسطى · الرياض","الغربية · الحجاز","الشمال الغربي · العلا","المنطقة الشرقية","الجنوب الغربي · عسير","الشمال · حائل"][i];el.textContent=isArabic?ar:el.dataset.en;});
+ if(isArabic){const r=regions[activeRegion];document.getElementById("regionLabel").textContent=({"central":"المنطقة الوسطى","west":"المنطقة الغربية · الحجاز","northwest":"الشمال الغربي","east":"المنطقة الشرقية","southwest":"الجنوب الغربي · عسير","north":"المناطق الشمالية"})[activeRegion];document.getElementById("regionTitle").textContent=({"central":"المنطقة الوسطى · الرياض","west":"المنطقة الغربية · الحجاز","northwest":"الشمال الغربي · العلا وتبوك","east":"المنطقة الشرقية · ساحل الخليج","southwest":"الجنوب الغربي · عسير والمرتفعات","north":"المناطق الشمالية · حائل"})[activeRegion];}
+ else {const r=regions[activeRegion];document.getElementById("regionLabel").textContent=r.label;document.getElementById("regionTitle").textContent=r.title;}
+}
+langButton.addEventListener("click",()=>{isArabic=!isArabic;applyLanguage();});
 document.getElementById("year").textContent=new Date().getFullYear();
 </script>
 </body></html>
