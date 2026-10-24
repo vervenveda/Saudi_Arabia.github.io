@@ -158,6 +158,7 @@ langButton.addEventListener("click",()=>{isArabic=!isArabic;applyLanguage();});
 document.getElementById("year").textContent=new Date().getFullYear();
 </script>
 
+<link rel="stylesheet" href="https://vervenveda.com/assets/vnv-ecosystem-menu.css">
 <script src="https://vervenveda.com/assets/vnv-ecosystem-menu.js" defer></script>
 <script>(function(){const t=document.getElementById("vnv-saudi-ticker");if(!t)return;const b=t.querySelector(".vnv-pause");let paused=false;try{paused=localStorage.getItem("VNV_TICKER_PAUSED")==="true"}catch{}function apply(){t.dataset.paused=String(paused);b.setAttribute("aria-pressed",String(paused));b.setAttribute("aria-label",paused?"Resume 333 Network ticker":"Pause 333 Network ticker");b.textContent=paused?"▶":"Ⅱ";try{localStorage.setItem("VNV_TICKER_PAUSED",String(paused))}catch{}}b.addEventListener("click",()=>{paused=!paused;apply()});apply()})();</script>
 </body></html>
