@@ -11,12 +11,19 @@ Verve N Veda’s bilingual Saudi Arabia country gateway: an independent educatio
 - `culture/music.html` — Music & Performance: Ardah, Samri, Almezmar, maritime traditions, Semsemiah, modern music
 - `culture/history.html` — History Through the Ages
 - `culture/architecture.html` — Architecture & Design: Najd, Hijaz, Asir, Al-Ahsa
+- `research/index.html` — bilingual source-led research archive with eight chapters
+- `learning/saudi-research-notebook.html` — bilingual Khaemenes Academy Academic Evidence notebook
+- `primary-sources/index.md` — primary and near-primary source directory
+- `methodology/` — source-evaluation and disputed-claims safeguards
+- `data/` — machine-readable timeline, source, and claim registers
 
 ## Shared cultural portal infrastructure
 
 - `assets/css/saudi-culture.css` — shared layout and accessibility standards with subject-specific visual treatments
 - `assets/js/saudi-culture.js` — persistent English ↔ Arabic switching, RTL support, accessible tab interactions, pattern study and rhythm study controls
 - `SOURCES.md` — research, image, license, and interpretive register
+- `CITATION_POLICY.md` — citation and historical naming standards
+- `CONTRIBUTING.md` — correction and research contribution rules
 
 ## Editorial principles
 
@@ -30,7 +37,7 @@ Verve N Veda’s bilingual Saudi Arabia country gateway: an independent educatio
 
 ## Language standard
 
-The main gateway and cultural portals maintain English ↔ Arabic parity with right-to-left layout support and a saved language preference.
+The main gateway, cultural portals, research archive, research chapters, research notebook, and Arabic companion maintain English ↔ Arabic parity where the interface is HTML, with right-to-left layout support and a saved language preference.
 
 ## Development
 
