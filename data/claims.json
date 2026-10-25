@@ -1,0 +1,87 @@
+[
+  {
+    "id": "CLM-HAIL-001",
+    "claim": "The Hail World Heritage property preserves human and animal rock imagery spanning roughly 10,000 years.",
+    "status": "documented institutional finding",
+    "evidence_type": "UNESCO heritage record",
+    "source_ids": [
+      "SRC-UNESCO-HAIL"
+    ],
+    "limitations": "UNESCO's synthesis does not identify the exact creator or meaning of every image."
+  },
+  {
+    "id": "CLM-HEGRA-001",
+    "claim": "Hegra is a major conserved Nabataean site south of Petra with monumental tombs, inscriptions and wells.",
+    "status": "documented institutional finding",
+    "evidence_type": "UNESCO heritage record",
+    "source_ids": [
+      "SRC-UNESCO-HEGRA"
+    ],
+    "limitations": "Do not describe the Nabataeans as the modern Saudi state."
+  },
+  {
+    "id": "CLM-TURAIF-001",
+    "claim": "At-Turaif was the first capital of the Saudi dynasty and preserves a distinctive Najdi adobe architectural ensemble.",
+    "status": "documented institutional finding",
+    "evidence_type": "UNESCO heritage record",
+    "source_ids": [
+      "SRC-UNESCO-TURAIF"
+    ],
+    "limitations": "Political chronology and terminology should be compared across scholarship."
+  },
+  {
+    "id": "CLM-FOUNDING-001",
+    "claim": "1727 and 1744 refer to different milestones in narratives of early Saudi state formation.",
+    "status": "well-supported framing",
+    "evidence_type": "official chronology plus historiography",
+    "source_ids": [
+      "SRC-FOUNDINGDAY",
+      "SRC-LOC-COUNTRY"
+    ],
+    "limitations": "The significance assigned to each date varies by source and historiographical tradition."
+  },
+  {
+    "id": "CLM-JEDDAH-001",
+    "claim": "Historic Jeddah's urban character reflects Red Sea trade and pilgrimage, with coral masonry and wooden roshan.",
+    "status": "documented institutional finding",
+    "evidence_type": "UNESCO heritage record",
+    "source_ids": [
+      "SRC-UNESCO-JEDDAH"
+    ],
+    "limitations": "A heritage description is not a complete social history of Jeddah."
+  },
+  {
+    "id": "CLM-AHSA-001",
+    "claim": "Al-Ahsa is an evolving cultural landscape linking water systems, agriculture, settlements and long-term human occupation.",
+    "status": "documented institutional finding",
+    "evidence_type": "UNESCO heritage record",
+    "source_ids": [
+      "SRC-UNESCO-AHSA"
+    ],
+    "limitations": "Contemporary water and agricultural conditions require current local data."
+  },
+  {
+    "id": "CLM-HERITAGE-001",
+    "claim": "Al-Qatt, Al-Sadu, Ardah, Almezmar and Semsemiah are documented as living heritage practices connected to particular communities and contexts.",
+    "status": "documented institutional finding",
+    "evidence_type": "UNESCO intangible heritage records",
+    "source_ids": [
+      "SRC-ICH-QATT",
+      "SRC-ICH-SADU",
+      "SRC-ICH-ARDAH",
+      "SRC-ICH-MEZMAR",
+      "SRC-ICH-SEMSEMIAH"
+    ],
+    "limitations": "Do not imply universal practice across all Saudi regions or communities."
+  },
+  {
+    "id": "CLM-VISION-001",
+    "claim": "Vision 2030 states national goals for diversification and social and cultural development.",
+    "status": "official policy claim",
+    "evidence_type": "official policy source",
+    "source_ids": [
+      "SRC-VISION2030"
+    ],
+    "limitations": "An announced goal does not by itself establish implementation quality or measured outcome."
+  }
+]
