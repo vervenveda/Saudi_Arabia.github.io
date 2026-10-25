@@ -134,3 +134,38 @@ Added with the Art, Music, History, and Architecture portal network.
 - Interactive pattern and rhythm exercises are original educational abstractions and are explicitly labelled as **not reproductions or transcriptions** of traditional works.
 - Documentary photographs reuse only items recorded in this source register or a linked item-level source record.
 - Where a source is governmental or state-affiliated, the page identifies it as such and does not treat it as independent corroboration for contested claims.
+
+
+## Research archive reference register
+
+### Historical synthesis and chronology
+- **Library of Congress, Federal Research Division — _Saudi Arabia: A Country Study_ (1993)**. Research completed December 1992. Used as a dated historical synthesis and bibliography, especially for twentieth-century background and comparison with newer official chronology. It must not be used as a source for current conditions.  
+  https://www.loc.gov/item/93028506/
+
+- **Saudi Founding Day — official guide and chronology.** Used as primary evidence for the modern Saudi state's commemoration of 1727 as the beginning of the First Saudi State under Imam Muhammad bin Saud. This is an official source, not independent historiography.  
+  https://foundingday.sa/
+
+- **Saudi Ministry of Foreign Affairs — KSA History.** Used for official state chronology of the Saudi state phases, the 1902 recapture of Riyadh, and the 1932 proclamation. Broader causal interpretation should be corroborated independently.  
+  https://www.mofa.gov.sa/en/ksa/Pages/history.aspx
+
+### Contemporary research
+- **Saudi Vision 2030 — official overview and annual reports.** Used to establish stated government goals, program structure, targets, and official progress reporting. The research archive explicitly distinguishes official targets and reported results from independent evaluation.  
+  https://www.vision2030.gov.sa/en/overview
+
+- **General Authority for Statistics (Saudi Arabia).** Used as the national statistical authority for dated official datasets. Indicator definitions and reporting periods must be recorded with any statistic.  
+  https://www.stats.gov.sa/
+
+- **World Bank — Saudi Arabia.** Used for international comparative economic and development data and analysis. Individual indicators should be cited with year and methodology.  
+  https://www.worldbank.org/ext/en/country/saudiarabia
+
+- **UN Human Rights Council / OHCHR — Universal Periodic Review of Saudi Arabia.** Used for the formal UPR record, recommendations, state responses, and review outcome. A recommendation or state acceptance does not by itself establish implementation.  
+  https://www.ohchr.org/en/hr-bodies/upr/sa-index
+
+## Research archive evidence rule
+
+The public research archive uses three machine-readable registers:
+- `data/sources.json` — source identity, type, scope and limitation;
+- `data/claims.json` — selected claims with status, evidence type and limitations;
+- `data/timeline.json` — chronological anchors with explicit source URLs and confidence notes.
+
+The registers are teaching aids, not a substitute for reading the underlying sources.
