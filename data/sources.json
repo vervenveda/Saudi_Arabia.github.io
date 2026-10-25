@@ -1,0 +1,114 @@
+[
+  {
+    "id": "SRC-UNESCO-HAIL",
+    "title": "Rock Art in the Hail Region of Saudi Arabia",
+    "institution": "UNESCO World Heritage Centre",
+    "type": "institutional heritage record",
+    "url": "https://whc.unesco.org/en/list/1472",
+    "notes": "Use for UNESCO property description, criteria and synthesis; follow bibliography for specialist archaeology."
+  },
+  {
+    "id": "SRC-UNESCO-HEGRA",
+    "title": "Hegra Archaeological Site (al-Hijr / Madā’in Ṣāliḥ)",
+    "institution": "UNESCO World Heritage Centre",
+    "type": "institutional heritage record",
+    "url": "https://whc.unesco.org/en/list/1293",
+    "notes": "Documents Nabataean tombs, inscriptions, wells and World Heritage status."
+  },
+  {
+    "id": "SRC-UNESCO-TURAIF",
+    "title": "At-Turaif District in ad-Dir'iyah",
+    "institution": "UNESCO World Heritage Centre",
+    "type": "institutional heritage record",
+    "url": "https://whc.unesco.org/en/list/1329",
+    "notes": "Useful for Najdi architecture and UNESCO's summary of Diriyah's political history."
+  },
+  {
+    "id": "SRC-UNESCO-JEDDAH",
+    "title": "Historic Jeddah, the Gate to Makkah",
+    "institution": "UNESCO World Heritage Centre",
+    "type": "institutional heritage record",
+    "url": "https://whc.unesco.org/en/list/1361",
+    "notes": "Documents coral masonry, roshan, trade and pilgrimage urbanism."
+  },
+  {
+    "id": "SRC-UNESCO-AHSA",
+    "title": "Al-Ahsa Oasis, an Evolving Cultural Landscape",
+    "institution": "UNESCO World Heritage Centre",
+    "type": "institutional heritage record",
+    "url": "https://whc.unesco.org/en/list/1563",
+    "notes": "Documents gardens, canals, springs, wells, settlement and long-term oasis landscape."
+  },
+  {
+    "id": "SRC-ICH-QATT",
+    "title": "Al-Qatt Al-Asiri",
+    "institution": "UNESCO Intangible Cultural Heritage",
+    "type": "living heritage record",
+    "url": "https://ich.unesco.org/en/RL/al-qatt-al-asiri-female-traditional-interior-wall-decoration-in-asir-saudi-arabia-01261",
+    "notes": "Use for community, practice and transmission; do not reduce it to a decorative motif."
+  },
+  {
+    "id": "SRC-ICH-SADU",
+    "title": "Traditional weaving of Al Sadu",
+    "institution": "UNESCO Intangible Cultural Heritage",
+    "type": "living heritage record",
+    "url": "https://ich.unesco.org/en/RL/traditional-weaving-of-al-sadu-02158",
+    "notes": "Use for weaving practice, materials, geometry and transmission."
+  },
+  {
+    "id": "SRC-ICH-ARDAH",
+    "title": "Alardah Alnajdiyah",
+    "institution": "UNESCO Intangible Cultural Heritage",
+    "type": "living heritage record",
+    "url": "https://ich.unesco.org/en/RL/alardah-alnajdiyah-dance-drumming-and-poetry-in-saudi-arabia-01196",
+    "notes": "Use for Najdi performance, poetry, drumming and communal context."
+  },
+  {
+    "id": "SRC-ICH-MEZMAR",
+    "title": "Almezmar, drumming and dancing with sticks",
+    "institution": "UNESCO Intangible Cultural Heritage",
+    "type": "living heritage record",
+    "url": "https://ich.unesco.org/en/RL/almezmar-drumming-and-dancing-with-sticks-01011",
+    "notes": "Use for Hijazi performance context."
+  },
+  {
+    "id": "SRC-ICH-SEMSEMIAH",
+    "title": "Semsemiah: instrument crafting and playing",
+    "institution": "UNESCO Intangible Cultural Heritage",
+    "type": "living heritage record",
+    "url": "https://ich.unesco.org/en/RL/semsemiah-instrument-crafting-and-playing-02119",
+    "notes": "Use for maritime instrument practice and community context."
+  },
+  {
+    "id": "SRC-LOC-COUNTRY",
+    "title": "Saudi Arabia: A Country Study",
+    "institution": "Library of Congress Federal Research Division",
+    "type": "dated historical synthesis",
+    "url": "https://www.loc.gov/item/93028506/",
+    "notes": "Research completed December 1992; valuable for historiography and bibliography, not current conditions."
+  },
+  {
+    "id": "SRC-FOUNDINGDAY",
+    "title": "Saudi Founding Day",
+    "institution": "Saudi Founding Day / official Saudi source",
+    "type": "official commemorative chronology",
+    "url": "https://foundingday.sa/",
+    "notes": "Primary evidence for the state's 1727 Founding Day chronology and commemorative framing."
+  },
+  {
+    "id": "SRC-MOFA-HISTORY",
+    "title": "KSA History",
+    "institution": "Saudi Ministry of Foreign Affairs",
+    "type": "official state history",
+    "url": "https://www.mofa.gov.sa/en/ksa/Pages/history.aspx",
+    "notes": "Use for official chronology; corroborate broader interpretations independently."
+  },
+  {
+    "id": "SRC-VISION2030",
+    "title": "Saudi Vision 2030",
+    "institution": "Kingdom of Saudi Arabia",
+    "type": "official policy program",
+    "url": "https://www.vision2030.gov.sa/",
+    "notes": "Use for stated goals and official progress reporting; distinguish targets from independently measured outcomes."
+  }
+]
