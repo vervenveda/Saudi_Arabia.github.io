@@ -1,0 +1,112 @@
+[
+  {
+    "date": "Prehistory–Holocene",
+    "topic": "Hail rock-art landscapes",
+    "summary": "Petroglyphs and inscriptions at Jubbah and Shuwaymis record human and animal imagery across major environmental changes and roughly 10,000 years of history.",
+    "status": "UNESCO heritage synthesis",
+    "source_urls": [
+      "https://whc.unesco.org/en/list/1472"
+    ]
+  },
+  {
+    "date": "1st century BCE–1st century CE",
+    "topic": "Nabataean Hegra",
+    "summary": "Hegra preserves 111 monumental tombs, 94 decorated, along with inscriptions and water wells; UNESCO identifies it as the largest conserved Nabataean site south of Petra.",
+    "status": "UNESCO heritage synthesis",
+    "source_urls": [
+      "https://whc.unesco.org/en/list/1293"
+    ]
+  },
+  {
+    "date": "7th century CE onward",
+    "topic": "Islam and pilgrimage",
+    "summary": "Mecca and Medina became central places in Muslim religious life, while pilgrimage routes connected western Arabia with communities across Africa and Asia.",
+    "status": "introductory synthesis; deepen with primary and scholarly sources",
+    "source_urls": [
+      "https://whc.unesco.org/en/list/1361"
+    ]
+  },
+  {
+    "date": "15th century onward",
+    "topic": "Diriyah and Najdi settlement",
+    "summary": "At-Turaif in Diriyah preserves a major Najdi architectural and urban ensemble and later became the political centre of the first Saudi state.",
+    "status": "UNESCO heritage synthesis",
+    "source_urls": [
+      "https://whc.unesco.org/en/list/1329"
+    ]
+  },
+  {
+    "date": "1727",
+    "topic": "Official Founding Day chronology",
+    "summary": "The modern Saudi state commemorates 1727 as the beginning of Imam Muhammad bin Saud's rule and the First Saudi State.",
+    "status": "official state chronology; compare with historiography using 1744 for the alliance milestone",
+    "source_urls": [
+      "https://foundingday.sa/"
+    ]
+  },
+  {
+    "date": "1744",
+    "topic": "Alliance chronology in earlier scholarship",
+    "summary": "Earlier scholarship commonly uses 1744 for the alliance between Muhammad bin Saud and Muhammad ibn Abd al-Wahhab as a major state-forming milestone.",
+    "status": "historiographic convention; distinguish event dated from 1727 official chronology",
+    "source_urls": [
+      "https://www.loc.gov/item/93028506/"
+    ]
+  },
+  {
+    "date": "1818",
+    "topic": "End of the First Saudi State",
+    "summary": "Diriyah was captured after the Egyptian-Ottoman campaign, ending the First Saudi State.",
+    "status": "introductory synthesis; corroborate with specialist scholarship",
+    "source_urls": [
+      "https://www.loc.gov/item/93028506/"
+    ]
+  },
+  {
+    "date": "1824–1891",
+    "topic": "Second Saudi State",
+    "summary": "A Saudi polity centred on Riyadh was re-established under Turki bin Abdullah in 1824 and lasted, with internal conflict and changing power, until 1891.",
+    "status": "official chronology plus historical synthesis",
+    "source_urls": [
+      "https://www.mofa.gov.sa/en/ksa/Pages/history.aspx",
+      "https://www.loc.gov/item/93028506/"
+    ]
+  },
+  {
+    "date": "1902",
+    "topic": "Recapture of Riyadh",
+    "summary": "Abdulaziz ibn Saud recaptured Riyadh, beginning the political and military consolidation that led to the modern kingdom.",
+    "status": "widely documented milestone; compare official and independent histories",
+    "source_urls": [
+      "https://www.mofa.gov.sa/en/ksa/Pages/history.aspx",
+      "https://www.loc.gov/item/93028506/"
+    ]
+  },
+  {
+    "date": "23 September 1932",
+    "topic": "Proclamation of the Kingdom of Saudi Arabia",
+    "summary": "The unified state took the name Kingdom of Saudi Arabia, effective 23 September 1932.",
+    "status": "official state chronology",
+    "source_urls": [
+      "https://www.mofa.gov.sa/en/ksa/Pages/history.aspx"
+    ]
+  },
+  {
+    "date": "1938 onward",
+    "topic": "Commercial oil era",
+    "summary": "Commercial oil production accelerated changes in state finance, infrastructure, urbanization, employment, education and international relations.",
+    "status": "introductory synthesis; use dated sector data for detailed claims",
+    "source_urls": [
+      "https://www.loc.gov/item/93028506/"
+    ]
+  },
+  {
+    "date": "2016 onward",
+    "topic": "Vision 2030 period",
+    "summary": "Saudi Arabia launched Vision 2030 as a national program of economic diversification and social and cultural development. Research should separate announced goals from implemented actions and measured outcomes.",
+    "status": "current-policy framework; requires dated sources for outcomes",
+    "source_urls": [
+      "https://www.vision2030.gov.sa/"
+    ]
+  }
+]
