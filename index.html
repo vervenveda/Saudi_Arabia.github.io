@@ -327,5 +327,5 @@ document.getElementById("year").textContent=new Date().getFullYear();
 (function(){const dialog=document.getElementById("partnership-dialog");const openButton=document.getElementById("open-partnership");const closeButton=document.getElementById("close-partnership");if(!dialog||!openButton||!closeButton)return;openButton.addEventListener("click",()=>{if(typeof dialog.showModal==="function")dialog.showModal();else dialog.setAttribute("open","");});closeButton.addEventListener("click",()=>{if(typeof dialog.close==="function")dialog.close();else dialog.removeAttribute("open");openButton.focus();});dialog.addEventListener("click",event=>{if(event.target===dialog){dialog.close();openButton.focus();}});dialog.addEventListener("close",()=>openButton.focus());})();
 </script>
 <script defer src="https://vervenveda.com/assets/vnv-external-landing.js"></script>
-<script src="https://vervenveda.com/assets/vnv-ecosystem-toolbar.js" defer data-vnv-ecosystem-toolbar="1"></script>
+<script src="https://vervenveda.com/assets/vnv-ecosystem-toolbar.js"></script>
 </body></html>

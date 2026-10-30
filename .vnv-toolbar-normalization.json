@@ -1,0 +1,33 @@
+{
+  "schema": "vnv-toolbar-normalization-v1",
+  "counts": {
+    "html": 17,
+    "eligible": 17,
+    "already": 0,
+    "changed": 17,
+    "protected": 0,
+    "internal": 0,
+    "fragments": 0,
+    "legacyRemoved": 0,
+    "duplicatesCollapsed": 0
+  },
+  "changed": [
+    "arabic-companion/index.html",
+    "culture/architecture.html",
+    "culture/art.html",
+    "culture/history.html",
+    "culture/index.html",
+    "culture/music.html",
+    "index.html",
+    "learning/saudi-research-notebook.html",
+    "research/01-deep-time-hail.html",
+    "research/02-hegra-oasis-networks.html",
+    "research/03-hijaz-islam-pilgrimage.html",
+    "research/04-diriyah-saudi-states.html",
+    "research/05-unification-oil-modernization.html",
+    "research/06-regions-living-heritage.html",
+    "research/07-built-landscapes-water.html",
+    "research/08-saudi-today-open-questions.html",
+    "research/index.html"
+  ]
+}
